@@ -204,4 +204,35 @@ button {
 	border: none;
 	margin-top: 10px;
 }
+footer{
+	height: 250px;
+	background: #2B3E4F;
+	color: white;
+}
+.Location{
+	width: 30%;
+	float: left;
+}
+.Location h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center
 
+}
+.location p{
+	font-size: 14px;
+	text-align: center;
+
+}
+.around{
+	width: 65%;
+	float: right;
+}
+.ultimo{
+	background: #213140;
+	height: 60px;
+	clear: both;
+}
+span{
+	text-align: center;
+}
