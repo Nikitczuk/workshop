@@ -2,7 +2,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,ul{
+h1,h2,h3,ul{
 	text-transform: uppercase;
 }
 
@@ -103,6 +103,21 @@ h1,h2,ul{
 	padding-bottom: 20px;
 }
 
+
+.gallery h3{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+}
 .blue{
-	color: #2B3E4F;
+	border: 2px solid #2B3E4F;
+	color: #2B3E4F; 
+} 
+.bluee{
+	color: #2B3E4F; 
+}
+.img{
+	width: 30%;
+    margin: 7px;
+
 }
