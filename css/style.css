@@ -32,6 +32,7 @@ h1,h2,h3,ul{
 	width: 90%;
 	margin: 0 auto;
 	padding: 20px;
+	padding-bottom: 20px;
 }
 
 .menu{
@@ -205,21 +206,30 @@ button {
 	margin-top: 10px;
 }
 footer{
-	height: 250px;
+	height: 160px;
 	background: #2B3E4F;
 	color: white;
+	padding-top: 60px;
 }
 .Location{
 	width: 30%;
-	float: left;
+	text-align: center;
+	display: inline-block;
 }
 .Location h2{
 	font-size: 25px;
 	font-weight: bold;
-	text-align: center
+	text-align: center;
+	margin-bottom: 30px;
 
 }
-.location p{
+footer .content{
+	text-align: center;
+}
+form{
+	padding-bottom: 50px;
+}
+.location h2 p{
 	font-size: 14px;
 	text-align: center;
 
@@ -228,11 +238,72 @@ footer{
 	width: 65%;
 	float: right;
 }
+.around2{
+	margin-bottom: 30px;
+}
 .ultimo{
 	background: #213140;
 	height: 60px;
 	clear: both;
+	padding-top: 50px;
+	text-align: center;
 }
+.rsocial{
+	display: inline-block;
+	height: 40px;
+	width:40px;
+	border-radius: 50%;
+	font-size:30px;
+	border: 2px solid white;
+	color:white;
+	margin-bottom: 30px;
+
+}
+
+.icons ul{
+	 display: inline-flex;
+}
+
 span{
 	text-align: center;
+}
+
+@media screen and (max-width:450px){
+    header{
+        height: auto;
+    }
+    .menu{
+        float: none;
+        
+    }
+
+    .menu li{
+        padding: 2px;
+
+    }
+.img{
+    width: 100%;
+   margin: 2px 0;
+
+}
+.about{
+    width: 100%;
+}
+.p2{
+    display: none;
+
+}
+.p1{
+    width: 100%;
+    padding: 2px 0;
+
+}
+.contact{
+    width: 100%;
+    padding-bottom: 20px;
+}
+h2, h3{
+
+    font-size: 25px !important;
+}
 }
