@@ -50,6 +50,10 @@ h1,h2,h3,ul{
 	display: inline-block;
 	padding: 15px;
 }
+.portfolio{
+	margin-bottom: 80px;
+
+}
 
 .profile{
 	background-color: #00BD9D;
@@ -108,6 +112,7 @@ h1,h2,h3,ul{
 	font-size: 40px;
 	text-align: center;
 	padding-top: 50px;
+
 }
 .blue{
 	border: 2px solid #2B3E4F;
@@ -121,3 +126,30 @@ h1,h2,h3,ul{
     margin: 7px;
 
 }
+.fondo{
+	background-color: #00BD9D;
+	height: 595px;
+
+}
+.lorem {
+    line-height: 27px;
+    width: 49.6%;
+    display: inline-block;
+    padding-left: 25px;
+    box-sizing: border-box;
+
+}
+.about h2{
+	padding-top: 39px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.about{
+	width:68%;
+	margin: 0 auto;
+	text-align: left;
+	color: white;
+}
+
