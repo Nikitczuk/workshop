@@ -234,6 +234,14 @@ form{
 	text-align: center;
 
 }
+.circulo{
+	height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 3px;
+    margin-top: -37px;
+}
 .around{
 	width: 65%;
 	float: right;
@@ -249,14 +257,11 @@ form{
 	text-align: center;
 }
 .rsocial{
-	display: inline-block;
-	height: 40px;
-	width:40px;
-	border-radius: 50%;
+	display: inline;
 	font-size:30px;
-	border: 2px solid white;
 	color:white;
 	margin-bottom: 30px;
+	padding: 7px;
 
 }
 
